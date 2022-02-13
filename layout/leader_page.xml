@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capback"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/score_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:text="@string/leade_board"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/clear_board"
+            android:textSize="15sp"/>
+        <ImageButton
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/ic_baseline_delete"
+            android:textColor="@color/white"
+            android:id="@+id/deleteMem"/>
+    </LinearLayout>
+    <ListView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/listView"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

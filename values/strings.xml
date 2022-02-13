@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AvengersCrush</string>
+    <string name="Instructions">Just match three or four of the same character and earn the highest score before the time\'s up!</string>
+    <string name="beginner">Beginner</string>
+    <string name="advanced">Advanced</string>
+    <string name="expert">Expert</string>
+    <string name="leade_board">Leader Board</string>
+    <string name="score">Score:</string>
+    <string name="your_score">Your score is</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="clear_board">To clear the board click here:</string>
+    <string name="toast_clear">Board cleared</string>
+    <string name="continue_instructions">Continue</string>
+    <string name="instructions2">Instructions</string>
+</resources>

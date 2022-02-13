@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AvengersCrush</string>
+    <string name="Instructions">צרו רצף של שלושה או ארבעה דמויות זהות ונסו להגיע לניקוד הגבוה ביותר לפני שהזמן ייגמר</string>
+    <string name="beginner">מתחיל</string>
+    <string name="advanced">מתקדם</string>
+    <string name="expert">מומחה</string>
+    <string name="leade_board">לוח תוצאות</string>
+    <string name="score">ניקוד:</string>
+    <string name="your_score">תוצאתך היא</string>
+    <string name="enter_name">הכנס את שמך</string>
+    <string name="clear_board">למחיקת לוח התוצאות לחצו כאן:</string>
+    <string name="toast_clear">היסטוריית הלוח נמחקה</string>
+    <string name="continue_instructions">לחצו להמשך</string>
+    <string name="instructions2">איך משחקים?</string>
+</resources>
